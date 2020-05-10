@@ -1,0 +1,147 @@
+html{scroll-behavior: smooth;}
+
+body{
+    margin: 1%;
+    padding: 0;
+    background-image: url(3.jpg);
+    background-repeat: repeat;
+}
+
+
+
+i{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background: #27ae60;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+i:hover{
+    background:#3DF20B ;
+    transition: .5s;
+}
+
+
+.nav{
+    overflow: Hidden;
+    position: fixed;
+    top:0%;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    z-index: 1000;
+    background-image:  url(3.jpg);
+}
+
+.as{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    color: yellow;
+    line-height: 2;
+    text-align: justify;
+    position: absolute;left: 10%;
+    right: 10%;
+    top: 100%;
+}
+
+#sa{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 128%;
+}
+
+#li{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 125%;
+}
+
+.logo{
+    flex:1 1 auto;
+    font-family: 'Oleo Script', cursive;
+    font-size: 40px;
+    color:#66ffc2;
+    margin-left:7%;
+}
+
+.logo1{
+    color: #E67637;
+    font-family: 'Oleo Script', cursive;
+    font-size: 30px;
+    position: absolute;
+    left: 8%;
+    top: 125%;
+
+}
+
+#width{
+    width: 70%;
+    height: 60%;
+    position: absolute; 
+    top: 36%; 
+    left: 18%;
+}
+
+
+#q{ 
+    color: #ffb84d;
+    position: absolute;
+    left: 20px;
+    top: 10%;
+}
+
+#w{
+    font-size: 35px;
+    color: red;
+    position: absolute;
+     left: 25px;
+     font-size: 30px;
+ }
+
+ .navbutton{
+    text-decoration-line: none;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 60px;
+    height: 30px;
+    color:#E67637;
+    font-size:20px;
+    text-align: center;
+    margin:20px;
+    align-items: center;
+}
+.navbutton:hover{
+    text-decoration-line: none;
+    font-family: 'Montserrat', sans-serif;
+    color:#F8EEBF;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 60px;
+    height: 30px;
+    background-color: #19807c;
+    font-size:25px;
+    margin:20px;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-place{
+    display: flex;
+    justify-content: right;    
+    list-style: none;
+}
+
