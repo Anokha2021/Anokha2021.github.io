@@ -1,0 +1,39 @@
+<html>
+<head>
+    <link rel="stylesheet" href="contacts.css">
+    <script src="contacts.js"></script>
+    <script src="anime.js"></script>
+</head>
+
+<body id="bid">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_ARgGCB8Fk8xog0z7WVWe7");
+   })();
+</script>
+
+    <div class="box" style="color:red;width: 350px;">Don't be a stranger</div>
+    <div class="box" style="color: yellow;width: 250px;top: 70px;">get in touch!!</div>
+    <script>
+        anime({
+       targets: '.box',
+       duration: 2000,
+       translateX:-130,
+       delay: (elm,i) => i * 100,
+    });
+    </script>
+    <img src="mail.png" id="mail">
+    <img src="cbot.jpg" id="cb">
+    <p style="max-width: 300px;position: absolute;top: 150px;">Feel free to put your quries in the box given below.You will get your response within 30 minutes to your mail.</p>
+    <form name="myform" method="get">
+        <input type="email" id="t1" name="em" placeholder="&nbsp;example: yourmail@email.com">
+        <input type="text" id="t2" name="qb" placeholder="write your quries here!">
+        <input type="submit" value="Send" id="send" onclick="return validateform()">
+    </form> 
+    <p id="email">Email :</p>
+
+</body>
+</html>
