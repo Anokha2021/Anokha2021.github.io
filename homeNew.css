@@ -1,0 +1,205 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+#first{
+    
+    width: 100%;
+    height: 550px;
+    padding-top: 30px;
+    background: linear-gradient(to bottom, rgba(7, 15, 29, 0.89) 10%, rgba(6, 6, 8, 0.726) 45%, #161616 100%), url("wallpaperflare.com_wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    
+}
+#second{
+    
+    width: 100%;
+    height: 610px;
+    background: linear-gradient(to top, rgba(31, 45, 82, 0.884) 10%, rgba(27, 21, 59, 0.767) 30%, #161616 100%), url("wallpaperflare.com_wallpaper (9).jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-top: 60px;
+}
+#third{
+    width: 100%;
+    height: 600px;
+}
+.topnav{
+    overflow: Hidden;
+    display:flex;
+    z-index: 1000;
+}
+#about{
+    padding-top: 30px;
+    background-color: transparent;
+    background: transparent;
+}
+
+.topnav a:hover {
+    background-color: lightblue;
+    color: black;
+}
+.topnav a{
+    color: white;
+    float: left;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 23px;
+}
+
+.tabcontent{
+    color: white;
+    height: 450px;
+    opacity: 0.8;
+    padding: 20px 20px;
+}
+
+.reg{
+    margin-left: 15%;
+    margin-top: 200px;
+}
+.reg a{
+    margin-left: 8%;
+    padding: 20px 20px;
+    color: honeydew;
+    font-size: 25px;
+    outline: solid;
+    text-decoration: none;
+}
+.reg a:hover{
+    background-color: gray;
+}
+li a{
+    text-decoration: none;
+    font-size: 28px;
+    color: honeydew;
+}
+#anokha{
+    font-size: 65px;
+    letter-spacing: 4px;
+    opacity: 0.8;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: white;
+}
+
+.para{
+    font-family: 'Comfortaa', cursive;
+    color: wheat;
+    margin-left: 55px;
+    margin-right: 55px;
+    font-size: 20px;  
+    opacity: 0.7;
+    text-align: justify;
+}
+.para2{
+    font-family: 'Comfortaa', cursive;
+    color: wheat;
+    text-align: justify;
+    padding-top: 74px;
+    padding-right: 30px;
+    padding-left: 670px;
+    font-size: 15px;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+}
+#para3{
+    font-family: 'Comfortaa', cursive;
+    color: wheat;
+    text-align: left;
+    padding-top: 45px;
+    padding-right: 60px;
+    padding-left: 602px;
+    font-size: 15px;
+}
+#para4{
+    font-family: 'Comfortaa', cursive;
+    color: wheat;
+    text-align: right;
+    padding-top: 20%;
+    padding-right: 602px;
+    padding-left: 80px;
+    font-size: 15px;
+}
+#intro{
+    height: 400px;
+    margin-top: 120px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: rgba(32, 47, 87, 0.932);
+}
+.events{
+    height: 660px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 120px;
+    background-color: rgb(14, 33, 46);
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    margin-top: 0px;
+    padding-left: 20px;
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+}
+.sticky ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+.sticky a{
+    color: white;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 14px 16px;
+    padding-bottom: 10px;
+    font-size: 23px;
+}
+.sticky ul li{
+    list-style-type: none;
+}
+.sticky div{
+    margin-left: 280px;
+}
+.sticky a:hover{
+    background-color: gray;
+}
+.logo{
+    margin-left: 0px;
+    font-family: 'Oleo Script', cursive;
+    color:#309692;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 0%;
+    font-size: 25px;
+}
+.end{
+    background-color: rgb(14, 33, 46);
+    width: 100%;
+    
+}
+.icon{
+    margin-left: 45%;
+}
+.icon a{
+    margin-top: 2%;
+    color: white;
+    text-decoration: none;
+    padding-right: 35px;
+    font-size: 30px;
+}
+.end p{
+    color: cornsilk;
+    text-align: center;
+}
